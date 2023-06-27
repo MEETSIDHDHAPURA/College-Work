@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" href="https://silveroakuni.ac.in/upload/images/favicon64.webp" type="image/gif">
+    <title> JS Form</title>  
+    <script src="./Javacript.js"></script>
+
+    <!-- Font size -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- internal CSS File  -->
+    <style>
+      body{
+        text-align: center;
+        background-color: #bc6c25;
+        padding: 3rem 12rem 4rem 12rem;
+      }
+      .js-form{
+        font-size: 1.3rem; 
+        background-color: #fefae0;
+        border-radius: 0.5rem;
+        padding: 1rem;
+
+      } 
+      .header{
+        font-size: 1.6rem;  
+        color: #bc6c25;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        
+      }
+      input{
+        margin-top: 1rem;
+        width: 300px; 
+        font-size: 1.3rem;
+        border: 2px solid #bc6c25;
+        background-color: #fefae0;
+        font-weight: 500;
+        color: #bc6c25;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+      }
+      input::placeholder{
+        font-size: 1rem; 
+        color: #bc6c25;
+        font-family: 'Poppins',sans-serif;
+      }
+      .ans{
+        font-size: 1.7rem;
+        height: 3rem ;
+        color: #bc6c25;
+        font-family: 'Poppins', sans-serif;
+      }
+      button{
+        font-size: 1.2rem;
+        padding: 0.25rem 2rem 0.25rem 2rem;
+        color: #bc6c25;
+        background-color: #fefae0;
+        border: 2px solid #bc6c25;
+        border-radius: 0.3rem;
+        margin: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+
+      }
+      button:hover{
+        color: #fefefe;
+        background-color: #bc6c25; 
+      }
+    </style>
+
+    
+    </head>
+  <body>
+     <div class="js-form">
+        <div class="header">
+          Age Calculator
+        </div>
+        <div class="input">
+            <input type="number" placeholder="Enter Your Birthyear" name="" id="birthYear">
+            <button onclick="btn()"> Show Age</button>
+            <p class="ans"></p>
+        </div>
+     </div>
+  </body>
+</html>
