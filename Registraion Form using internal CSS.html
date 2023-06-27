@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- favicon Link -->
+    <link rel="icon" href="https://silveroakuni.ac.in/upload/images/favicon64.webp" type="image/gif">
+    <title>Registration Form</title>  
+
+    <!-- internal CSS  --> 
+    <style>
+        body {
+            background-color: #bc4749;
+        }
+
+        img {
+            height: 70px;
+            position: absolute;
+            top: 1rem;
+            margin: 0.7rem 0 0 0;
+            background-color: #f2e8cf;
+            border-radius: 0.3rem;
+            padding: 0.5rem;
+            left: 33rem;
+        }
+
+        form {
+            background-color: #f2e8cf;
+            border-radius: 0.5rem;
+            width: 100vh;
+            margin: 3.4rem 4rem 0 5rem;
+            align-items: center;
+            padding: 2rem 2.5rem 0 2.5rem;
+            position: absolute;
+            top: 5rem;
+            left: 13rem;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 2rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-bottom: 0.7rem;
+            font-weight: 600;
+            border-bottom: 2px solid #bc4749;
+        }
+
+        .content {
+            padding: 2rem 4rem 2rem 4rem;
+        }
+
+        .label {
+            font-size: 1.1rem;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .inputs {
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;      
+            padding: 0.4rem;
+            display: block;
+            margin: 0.5rem 0 0.5rem 0;
+            width: 25rem;
+            border-radius: 0.2rem;
+        }
+
+        .lang {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .hobby {
+            margin-bottom: .3rem;
+            font-size: 1.1rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #sumbit-btn {
+            padding: 8px 23px;
+            border-radius: 0.2rem;
+            border: 1px solid #bc4749;
+            background-color: #bc4749;
+            font-size: 1rem;
+            color: #f2e8cf;
+            font-weight: 600;
+            margin: 1rem 0.5rem 0 0;
+        }
+        #sumbit-btn:hover{
+            background-color: #f2e8cf;
+            color: #bc4749;
+        }
+
+        #reset-btn {
+            padding: 8px 23px;
+            border-radius: 0.2rem;
+            border: 1px solid #bc4749;
+            color: #bc4749;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1rem 0 0 0;
+        }
+        #reset-btn:hover{
+            background-color: #bc4749;
+            color: #f2e8cf;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <img src="./silver oak logo.webp"  srcset="">
+    <form action="" method="post"  >
+
+      <header class="heading"> Registration Form </header> 
+      
+      <div class="content"> 
+          <label for="fname" class="label" > First Name</label>
+          <input type="text" id="fname" placeholder=" Dhruv" class="inputs">
+
+          <label for=" lname" class="label" > Last Name</label>
+          <input type="text" id="lname" placeholder=" Zalavadiya"  class="inputs">
+
+          <label for=" email" class="label" > Email ID</label>
+          <input type="email" id="email" placeholder=" xyz@gmail.com"  class="inputs" >
+
+          <p class="lang"> Choose your favourite web language </p>
+          <input type="radio" name="lang" id="html">
+          <label for="html"> HTML </label>
+
+          <input type="radio" name="lang" id="css">
+          <label for="css"> CSS </label>
+
+          <input type="radio" name="lang" id="JS">
+          <label for="JS"> JavaScript </label>
+
+          <p class="hobby"> Choose your Hobies </p>
+          <input type="checkbox" name="" id="read">
+          <label for="read"> Reading</label>
+          <br>
+
+          <input type="checkbox" name="" id="Swimming">
+          <label for="Swimming"> Swimming</label>
+          <br>
+
+          <input type="checkbox" name="" id="music">
+          <label for="music"> Music</label>
+          <br>
+
+          <button type="submit" id="sumbit-btn" > Submit </button>
+
+          <button type="reset" id="reset-btn" > Reset</button>
+
+      </div>
+    </form>
+  </body>
+</html>

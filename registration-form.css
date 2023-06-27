@@ -1,0 +1,125 @@
+body {
+    background-color: #bc4749;
+}
+
+img {
+    height: 70px; 
+    position: absolute;
+    top: 0.2rem;
+    margin: 0.7rem 0 0 0;
+    background-color: #f2e8cf;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    left: 33rem;
+}
+
+form {
+    background-color: #f2e8cf;
+    border-radius: 0.8rem;
+    width: 90vh;
+    margin: 3.4rem;
+    align-items: center;
+    padding: 2.5rem;
+    position: absolute;
+    top: 4rem;
+    left: 15rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 0.7rem;
+    font-weight: 600;
+    border-bottom: 2px solid #bc4749;
+}
+
+.content {
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+.label {
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}
+.label i{
+    color: #bc4749;
+    padding-right: 0.3rem;
+}
+
+
+.inputs {
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.4rem;
+    border: 2px solid #bc4749;
+    border-radius: 0.3rem;
+    display: block;
+    margin: 0.2rem 0 0.8rem 0;
+    width: 25rem;
+}
+.inputs::placeholder{
+    color: #bc4749;
+    font-family: serif;
+}
+ 
+
+.lang {
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:0.7rem;
+}
+.lang i{
+    color: #bc4749;
+}
+
+.hobby {
+    margin-bottom: .3rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hobby i{
+    color: #bc4749;
+}
+
+#sumbit-btn {
+    padding: 8px 30px;
+    border-radius: 0.2rem;
+    border: 1px solid #bc4749;
+    background-color: #bc4749;
+    font-size: 1rem;
+    color: #f2e8cf;
+    font-weight: 600;
+    margin: 1rem 0.5rem 0 0;
+}
+
+#sumbit-btn:hover {
+    background-color: #f2e8cf;
+    color: #bc4749;
+}
+
+#reset-btn {
+    padding: 8px 30px;
+    border-radius: 0.2rem;
+    border: 1px solid #bc4749;
+    color: #bc4749;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+}
+
+#reset-btn:hover {
+    background-color: #bc4749;
+    color: #f2e8cf;
+}
+
+.sm-input:hover .sm-input ~ .checkmark {
+    background-color: #eee;
+  }
+
+  .sm-input:checked ~ .checkmark {
+    background-color: #bc4749;
+  }

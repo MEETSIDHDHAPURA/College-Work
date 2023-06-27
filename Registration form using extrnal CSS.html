@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" href="https://silveroakuni.ac.in/upload/images/favicon64.webp" type="image/gif">
+    <title>Registration Form</title>  
+
+    <!-- external CSS File  -->
+    <link rel="stylesheet" href="./registration-form.css">
+
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <img src="./silver oak logo.webp" >
+    <form action="" method="post"  >
+
+      <header class="heading"> Registration Form </header> 
+      
+      <div class="content"> 
+        <label for="fname" class="label" ><i class="fa-solid fa-user"></i> Full Name</label>
+        <input type="text" id="fname" placeholder=" Dhruv Zalavadiya" class="inputs"> 
+
+        <label for=" email" class="label" > <i class="fa-solid fa-envelope"></i> Email ID</label>
+        <input type="email" id="email" placeholder=" xyz@gmail.com"  class="inputs" >
+
+          <p class="lang"> <i class="fa-solid fa-code"></i> Choose your favourite web language </p>
+          <input type="radio" name="lang" id="html" class="sm-input c">
+          <span class="checkmark"></span>
+          <label for="html"> HTML </label>
+
+          <input type="radio" name="lang" id="css">
+          <label for="css"> CSS </label>
+
+          <input type="radio" name="lang" id="JS">
+          <label for="JS"> JavaScript </label>
+
+          <p class="hobby"> <i class="fa-brands fa-google-wallet"></i>  Choose your Hobies </p>
+          <input type="checkbox" name="" id="read">
+          <label for="read"> Reading</label>
+          <br>
+
+          <input type="checkbox" name="" id="Swimming">
+          <label for="Swimming"> Swimming</label>
+          <br>
+
+          <input type="checkbox" name="" id="music">
+          <label for="music"> Music</label>
+          <br>
+
+          <button type="submit" id="sumbit-btn" > Submit </button>
+
+          <button type="reset" id="reset-btn" > Reset</button>
+
+      </div>
+    </form>
+  </body>
+</html>
