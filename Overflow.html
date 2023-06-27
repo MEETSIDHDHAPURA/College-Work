@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body{
+            background-color: #d1beb0;
+            padding: 1rem 5rem 0 5rem;
+        }
+        .container{
+            background-color: #3c4f76;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+        .header{
+            background-color: #e8fccf;
+            padding: 0.2rem;
+            color: #3c4f76;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            border-radius: 0.5rem;
+        }
+        .sm-box{
+            background-color: #e8fccf;
+            padding: 1rem;
+            margin:1rem 0 0 0 ;
+            border-radius: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+        .bl-1{
+            height: 20rem;
+            width: 20rem;
+            background-color: #d1beb0;
+            color: #3c4f76;
+            font-weight:400;
+            line-height: 1.2;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1rem;
+            overflow:hidden;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem;
+        }
+        p::first-letter{
+            font-size: 2rem;
+            margin-right: 0.3rem;
+            font-weight: 600;
+        }
+        .bl-2{
+            height: 20rem; 
+            width: 20rem;
+            background-color: #3c4f76;
+            color: #e8fccf;
+            font-weight:400;
+            line-height: 1.2;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1rem;
+            overflow-y: scroll;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem;
+        }
+        .bl-3{
+            height: 20rem; 
+            width: 20rem;
+            background-color:#d1beb0;
+            color:  #3c4f76;
+            font-weight:400;
+            line-height: 1.2;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1rem;
+            overflow-y: scroll;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Overflow</h1>
+        </div>
+        <div class="sm-box">
+            <div class="bl-1">
+                <h4 class="sm-header" style="text-align: center; font-size: 1.3rem; margin: 0;"> Overflow : hidden</h4>
+                <p style="margin-top: 0;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae praesentium voluptate aliquid, consectetur eum
+                molestias laboriosam veniam possimus ex. Culpa ex expedita pariatur molestiae id eum esse qui tenetur nesciunt facilis
+                obcaecati recusandae quaerat itaque iusto <br> <br> a, quibusdam, cum ipsa tempora iste, consequuntur ut fugiat nostrum. Explicabo
+                labore sit odit neque, quidem quisquam nesciunt magni itaque. Qui quis sint natus repudiandae numquam. Doloribus
+                aperiam, non consectetur explicabo, quaerat facere alias provident, hic quis sequi nisi sapiente veritatis velit illum
+                nulla! Fugit molestiae similique adipisci totam debitis at numquam officiis, accusamus mollitia eum libero. Minus nihil
+                sint deleniti praesentium possimus <br> <br>luptatem quos a odio vero vitae repudiandae tenetur fugit, atque ex ratione
+                eligendi dolore veniam voluptas odit asperiores sit nobis nostrum ad! Natus possimus veritatis enim itaque, quae
+                excepturi sequi fuga consectetur dolor officia, corrupti, at asperiores corporis minus perferendis accusantium velit
+                ullam blanditiis. Excepturi, earum quod molestias beatae inventore porro quas aliquid minima velit cum, recusandae
+                incidunt? Commodi non nihil quis, explicabo nostrum quaerat, aut at dignissimos, dolores aspernatur repellendus
+                exercitationem beatae nesciunt neque. Placeat aliquam saepe, dolore maiores accusamus distinctio dignissimos iusto rerum
+                 
+                </p>
+            </div>
+            <div class="bl-2">
+                <h4 class="sm-header" style="text-align: center; font-size: 1.3rem; margin: 0;"> Overflow : scroll</h4>
+                <p style="margin-top: 0.2rem;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam molestiae ea, saepe voluptatibus odit delectus hic! Ipsa
+                voluptatibus nobis in amet dolor magni distinctio corporis sed error molestias atque nulla ipsam, quasi ratione. Veniam
+                reprehenderit corporis dolor atque itaque nostrum in ab animi maxime! Veniam, quaerat tempora non itaque totam
+                laudantium blanditiis quo vel? Libero <br> <br> quidem voluptate nemo dolor id quas officiis itaque aperiam quibusdam. Doloribus
+                ab quasi esse, repellendus soluta aliquam facilis adipisci itaque natus aut suscipit voluptatibus ratione nisi
+                doloremque ducimus nemo obcaecati, ea autem ullam, animi accusantium vero. Laborum expedita hic odit dignissimos,
+                perferendis ipsum quod facere quo illo aperiam ea asperiores quas voluptatum nesciunt minima praesentium dolores
+                architecto obcaecati amet earum illum <br> <br> laudantium totam provident eum. Harum iste odit facere libero nemo, iusto
+                eveniet! Eveniet enim itaque porro perferendis et id beatae esse facilis, architecto laboriosam nam, delectus soluta
+                facere blanditiis quas voluptatibus, corrupti cumque praesentium. Facilis sit ea delectus explicabo? Laudantium mollitia
+                corporis consequuntur animi quidem aliquid illum earum nam sit reprehenderit quis in hic commodi maiores error quo,
+                maxime cum alias id sint accusantium deserunt fugit asperiores <br> <br> inventore. Odit architecto quisquam cupiditate repellat
+                labore. Optio rem nam a minima eaque doloremque illo, magni quasi, velit ipsam quis hic maxime. Ab laboriosam delectus
+                voluptatum dolor veniam ipsum dicta eum explicabo. Sint perferendis consectetur nesciunt accusantium velit, temporibus
+                optio minus molestias nemo magni blanditiis, error illum id sapiente cumque culpa labore debitis dolor natus adipisci
+                neque? Earum porro fuga dolor et, necessitatibus obcaecati facere sint expedita?
+                </p>
+                
+            </div>
+            <div class="bl-3">
+                <h4 class="sm-header" style="text-align: center; font-size: 1.3rem; margin: 0;"> Overflow : Visible</h4>
+                <p style="margin-top: 0;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum beatae praesentium voluptate aliquid, consectetur eum
+                molestias laboriosam veniam possimus ex. Culpa ex expedita pariatur molestiae id eum esse qui tenetur nesciunt facilis
+                obcaecati recusandae quaerat itaque iusto <br> <br> a, quibusdam, cum ipsa tempora iste, consequuntur ut fugiat nostrum. Explicabo
+                labore sit odit neque, quidem quisquam nesciunt magni itaque. Qui quis sint natus repudiandae numquam. Doloribus
+                aperiam, non consectetur explicabo, quaerat facere alias provident, hic quis sequi nisi sapiente veritatis velit illum
+                nulla! Fugit molestiae similique adipisci totam debitis at numquam officiis, accusamus mollitia eum libero. Minus nihil
+                sint deleniti praesentium possimus 
+                 
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

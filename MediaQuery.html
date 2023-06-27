@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body {
+            padding: 3rem;
+            background-color: #c9ada7;
+            text-align: center;
+        }
+        .img-box{
+            background-color: #003049; 
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+        .header{
+            font-size: 2rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
+            color: #c9ada7;
+        }
+        .img{
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            width: 600px;
+        }
+        @media screen and (max-width: 768px) {
+            .header{
+                font-size: 1.5rem;
+                font-weight: 400;
+            }
+            .img{
+                width: 400px !important;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="img-box">
+            <h2 class="header"> Media Quaries</h2>
+            <img src="./footer-bg.jpg" alt=""  class="img">
+        </div>
+    </div>
+</body>
+</html>
