@@ -1,0 +1,53 @@
+body{
+    background-color: #edf6f9;
+}
+.logo {
+    background-color: #006d77;
+    margin: 5px;
+    text-align: left;
+    padding: 1rem 1.2rem ;
+    font-size: 1rem;
+    color: #edf6f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+.big-box{
+    display: flex;
+}
+.empty{ 
+    margin: 5px;
+    text-align: center;
+    padding: 11rem 10rem ;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #006d77;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.header{
+    background-color: #006d77;
+    margin: 5px;
+    text-align: center;
+    padding: 2rem 18.1rem ;
+    font-size: 1rem;
+    color: #edf6f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.text-aria{
+    background-color: #006d77;
+    margin: 5px 5px 0 5px;
+    text-align: center;
+    padding: 8.4rem 0 ;
+    font-size: 1rem;
+    color: #edf6f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    background-color: #006d77;
+    margin: 5px;
+    text-align: center;
+    padding: 0.8rem  ;
+    font-size: 1rem;
+    color: #edf6f9;
+    font-family: 'Times New Roman', Times, serif;
+}
