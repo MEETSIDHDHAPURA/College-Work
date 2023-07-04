@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide("slow", function(){
+      alert(" no  paragraph ");
+    });
+  });
+});
+</script>
+<style>
+    body {
+      background-color: #e07a5f;
+    }   
+    button
+    {
+      background-color: #a3cef1;
+      color: rgb(0, 0, 0);
+      border-radius: 9px;
+    }
+</style>
+</head>
+<body>
+
+<button>Hide</button>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+
+</body>
+</html>
